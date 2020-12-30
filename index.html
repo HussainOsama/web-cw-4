@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
     <!--  قم بربط هذه الصفحة  مع css -->
+    <link rel="stylesheet" href="styles.css">
     <!--  ربط google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap">
+
+
   </head>
 
   <body>
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#Go1">هويّتي</a>
+        <a href="#Go2">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -20,18 +24,18 @@
 
     <!--------------------(البطاقة)-------------------->
 
-    <div class="card center">
+    <div class="card center" id="Go2">
       <!--------------------(الصورة)------------------->
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
+      <h1>حسين أسامه</h1>
       <h4>هواياتي المفضلة</h4>
 
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>قواري 🚲</li>
+        <li>كرة ⚽️</li>
+        <li>الأكل و النوم 🍔</li>
       </ul>
 
       <a href="https://code.kw/">
@@ -40,6 +44,10 @@
     </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+    <div class="hobbies" id="Go2">
+      <img src="./img/bike.jpg" alt="">
+      <img src="./img/ball.jpg" alt="">
+      <img src="./img/eat.jpg" alt="">
+    </div>
   </body>
 </html>
